@@ -6,10 +6,10 @@ cask "mihomo-party" do
          intel: "59f803a2387885c6af9213ba821c6feb371bec31c3ec1897717d11b8565504c9"
 
   url "https://github.com/mihomo-party-org/mihomo-party/releases/download/v#{version}/mihomo-party-macos-#{version}-#{arch}.dmg"
-  name "mihomo-party"
+  name "Mihomo Party"
   desc "Another Mihomo GUI"
   homepage "https://github.com/mihomo-party-org/mihomo-party"
 
-  app "mihomo-party.app"
-  binary "#{appdir}/mihomo-party.app/Contents/MacOS/mihomo-party"
+  app "Mihomo Party.app"
+  binary "#{appdir}/mihomo-party.app/Contents/MacOS/Mihomo Party"
 end
