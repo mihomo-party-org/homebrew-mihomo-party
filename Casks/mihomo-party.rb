@@ -11,5 +11,5 @@ cask "mihomo-party" do
   homepage "https://github.com/mihomo-party-org/mihomo-party"
 
   app "Mihomo Party.app"
-  binary "#{appdir}/mihomo-party.app/Contents/MacOS/Mihomo Party"
+  binary "#{appdir}/Mihomo Party.app/Contents/MacOS/Mihomo Party"
 end
