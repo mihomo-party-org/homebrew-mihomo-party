@@ -1,9 +1,9 @@
 cask "mihomo-party" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.4.1"
-  sha256 arm:   "9c3f1deb3b3aadc4edc76eed98cdf8676b9cbdbde3811ed27c9f7cc9dd62dff6",
-         intel: "6914d9f6c99579c3d96325dd68c97a4a2bc385da058aa723392ba55263a78eec"
+  version "1.4.2"
+  sha256 arm:   "c665d1934831878b1148101884e6574a8fbaf464bf887702f7709366455838aa",
+         intel: "de7ddce5b75dfd929a4062d682119910c392566b04cc887cfb4f2cdf804e2863"
 
   url "https://github.com/mihomo-party-org/mihomo-party/releases/download/v#{version}/mihomo-party-macos-#{version}-#{arch}.dmg"
   name "Mihomo Party"
