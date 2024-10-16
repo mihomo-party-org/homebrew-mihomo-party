@@ -10,4 +10,7 @@ cask "mihomo-party" do
   name "Mihomo Party"
   desc "Another Mihomo GUI"
   homepage "https://github.com/mihomo-party-org/mihomo-party"
+  zap trash:  [
+        "~/Library/Application\ Support/mihomo-party",
+      ]
 end
