@@ -1,5 +1,6 @@
 cask "mihomo-party" do
   arch arm: "arm64", intel: "x64"
+
   version "1.5.0"
 
   on_catalina do
@@ -22,6 +23,8 @@ cask "mihomo-party" do
   name "Mihomo Party"
   desc "Another Mihomo GUI"
   homepage "https://github.com/mihomo-party-org/mihomo-party"
+
   uninstall pkgutil: "party.mihomo.app"
+
   zap trash: "~/Library/Application Support/mihomo-party"
 end
