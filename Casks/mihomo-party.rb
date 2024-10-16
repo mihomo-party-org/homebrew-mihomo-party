@@ -7,6 +7,7 @@ cask "mihomo-party" do
 
   url "https://github.com/mihomo-party-org/mihomo-party/releases/download/v#{version}/mihomo-party-macos-#{version}-#{arch}.pkg"
   pkg "mihomo-party-macos-#{version}-#{arch}.pkg"
+  uninstall pkgutil: "party.mihomo.app"
   name "Mihomo Party"
   desc "Another Mihomo GUI"
   homepage "https://github.com/mihomo-party-org/mihomo-party"
